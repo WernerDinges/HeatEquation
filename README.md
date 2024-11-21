@@ -58,7 +58,7 @@ The vertical axis shows the temperature. Here it is noticeable that on one side 
 Comparsion of the two versions of the code. We notice an interesting dependence of the performance on the number of iterations:
 ![Old (Single function) _ New (Class)](https://github.com/user-attachments/assets/53c1b6cc-a7db-4d61-b79f-d4dc2993e36a)
 
-The vertical axis shows the execution time in milliseconds. The new version (class) has a faster setup and handles longer simulations (over 100000 steps) better, while the older version (single feature) handles small simulations (10-100000 steps) better.
+The vertical axis shows the execution time in milliseconds. The new version (class) has a faster setup and handles longer simulations (over 100000 steps) better, while the older version (single feature) handles small simulations (10-100000 steps) better. The tests were carried out for a mesh of size 11x11x11.
 
 The big disadvantage is the strong discrepancy in results between the two versions of the code (up to 15% error on some nodes) in short simulations.
 
