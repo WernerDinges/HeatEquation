@@ -60,7 +60,7 @@ Example of heat distribution taken from a 3-dimensional simulation:
 
 Here it is noticeable that on one side the substance has a higher diffusivity.
 
-Comparing the two versions of the code, when we notice an interesting dependence of the performance on the number of iterations:
+Comparsion of the two versions of the code. We notice an interesting dependence of the performance on the number of iterations:
 ![Old (Single function) _ New (Class)](https://github.com/user-attachments/assets/53c1b6cc-a7db-4d61-b79f-d4dc2993e36a)
 
 The new version (class) has a faster setup and handles longer simulations (over 100000 steps) better, while the older version (single feature) handles small simulations (10-100000 steps) better.
