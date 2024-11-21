@@ -7,7 +7,7 @@ The edges of the simulation area do not allow heat to flow outward. Zero diffusi
 The code is executed in two variants: a single function and a class. Both variants were compared in terms of simulation performance.
 
 ## Table of contents
-- [How does it work?](#how_does_it_work?)
+- [How does it work?](#how_does_it_work)
 - [Beautiful graphs](#beautiful_graphs)
 - [Verions of the solver](#versions_of_the_solver)
 
