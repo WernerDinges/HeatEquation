@@ -57,10 +57,12 @@ By repeating the process for each node, we progress through the simulation.
 
 Example of heat distribution taken from a 3-dimensional simulation:
 ![T(t = 0; 0,02; 0,1; 0,5)](https://github.com/user-attachments/assets/8c6653b0-421f-49d1-a995-c994614174e2)
+
 Here it is noticeable that on one side the substance has a higher diffusivity.
 
 Comparing the two versions of the code, when we notice an interesting dependence of the performance on the number of iterations:
 ![Old (Single function) _ New (Class)](https://github.com/user-attachments/assets/53c1b6cc-a7db-4d61-b79f-d4dc2993e36a)
+
 The new version (class) has a faster setup and handles longer simulations (over 100000 steps) better, while the older version (single feature) handles small simulations (10-100000 steps) better.
 
 The big disadvantage is the strong discrepancy in results between the two versions of the code (up to 15% error on some nodes) in short simulations.
